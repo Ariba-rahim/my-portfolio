@@ -23,7 +23,7 @@ export default function Navbar() {
           MyPortfolio
         </Link>
 
-        {/* Desktop Menu */}
+    
         <div className="hidden md:flex space-x-6">
           {links.map((link) => (
             <Link
@@ -38,7 +38,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Mobile Button */}
+      
         <button
           className="md:hidden text-blue-600"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -47,7 +47,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+   
       {menuOpen && (
         <div className="md:hidden bg-white shadow-inner">
           {links.map((link) => (

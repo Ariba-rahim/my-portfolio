@@ -6,16 +6,16 @@ export default function AboutPage() {
     <main className="pt-20 min-h-screen bg-blue-50 text-gray-800 px-9 md:px-12 w-full  ">
       <Navbar/>
       <section className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
-        {/* Image Section */}
+      
         <div className="w-full md:w-1/2">
           <img
-            src="/about.jpg" // Make sure this image exists in public/
+            src="/about.jpg" 
             alt="Profile"
             className="rounded-2xl shadow-lg w-full h-auto object-cover"
           />
         </div>
 
-        {/* Text Section */}
+ 
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl font-bold text-blue-700 mb-4">About Me</h1>
           <p className="text-lg leading-relaxed text-gray-600 ">
