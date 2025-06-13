@@ -8,12 +8,12 @@ export default function HomePage() {
   return (
         
     <div
-    className="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col text-white h-screen"
+    className="min-h-screen bg-cover  bg-no-repeat flex flex-col text-white h-screen"
     style={{ backgroundImage: "url('/bg.jpg')" }}
   >
     <Navbar />
   
-      <main className="flex flex-col lg:flex-row items-start justify-start flex-grow pt-36 pl-40">
+      <main className="flex flex-col lg:flex-row items-start justify-start flex-grow gap-44 pt-40 pl-40">
         <Image
           src="/pp.png"
           alt="Profile"
@@ -21,11 +21,11 @@ export default function HomePage() {
           height={400}
           className="border-4 border-blue-500 shadow-lg"
         />
-<div className="text-white  pl-14 leading-relaxed max-w-4xl">
-        <h1 className="text-5xl font-extrabold leading-tight drop-shadow-black mb-6 text-shadow-black">
-          Hi, I'm <span className="text-white">Ariba Rahim</span>
+<div className="   leading-relaxed max-w-4xl  justify-center py-16 px-8  rounded-xl shadow-xl p-10  w-full text-center bg-white lg:w-1/2  flex-col  space-y-6">
+        <h1 className="text-5xl font-extrabold leading-tight drop-shadow-black mb-6 text-shadow-black text-gray-800 justify-center">
+          Hi, I'm <span className="text-blue-600">Ariba Rahim</span>
         </h1>
-        <p className=" leading-relaxed mb-6 text-white/90 text-3xl shadow-black max-w-4xl font-bold">
+        <p className=" leading-relaxed mb-6 text-black text-3xl shadow-black max-w-4xl mt-4 ">
           I’m a full-stack developer who builds clean and modern web applications.
         </p>
         <a

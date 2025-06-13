@@ -3,7 +3,7 @@ import Navbar from "../component/Navbar";
 
 export default function AboutPage() {
   return (
-    <main className="pt-20 min-h-screen bg-blue-50 text-gray-800 px-9 md:px-12 w-full  ">
+    <main className="pt-20 min-h-screen bg-blue-200 text-gray-800 px-9 md:px-12 w-full  ">
       <Navbar/>
       <section className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
       
