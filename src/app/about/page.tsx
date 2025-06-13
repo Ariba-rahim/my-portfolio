@@ -20,13 +20,13 @@ export default function AboutPage() {
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl font-bold text-blue-700 mb-4">About Me</h1>
           <p className="text-lg leading-relaxed text-gray-600 ">
-            I'm a passionate web developer with a love for crafting responsive,
+            I&#39;m a passionate web developer with a love for crafting responsive,
             user-friendly websites using modern technologies like Next.js,
             React, and Tailwind CSS.
           </p>
           <p className="text-lg leading-relaxed text-gray-600 mt-4">
             I enjoy building beautiful, functional websites and applications,
-            and I'm always learning new tools and techniques to improve my craft. 
+            and I&#39;m always learning new tools and techniques to improve my craft. 
             I am a student an governer sindh IT Initative.
           </p>
         </div>

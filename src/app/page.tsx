@@ -23,10 +23,10 @@ export default function HomePage() {
         />
 <div className="   leading-relaxed max-w-4xl  justify-center py-16 px-8  rounded-xl shadow-xl p-10  w-full text-center bg-white lg:w-1/2  flex-col  space-y-6">
         <h1 className="text-5xl font-extrabold leading-tight drop-shadow-black mb-6 text-shadow-black text-gray-800 justify-center">
-          Hi, I'm <span className="text-blue-600">Ariba Rahim</span>
+          Hi,I&#39;m <span className="text-blue-600">Ariba Rahim</span>
         </h1>
         <p className=" leading-relaxed mb-6 text-black text-3xl shadow-black max-w-4xl mt-4 ">
-          I’m a full-stack developer who builds clean and modern web applications.
+         I&#39;m a full-stack developer who builds clean and modern web applications.
         </p>
         <a
           href="/projects"
